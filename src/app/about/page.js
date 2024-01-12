@@ -1,9 +1,7 @@
-import Image from 'next/image'
-
-export default function Home() {
+export default function About() {
   return (
 <div className='flex min-h-screen items-center text-7xl font-bold justify-center'>
-  <h1>Home page</h1>
+  <h1>About page</h1>
 </div>
   )
 }
