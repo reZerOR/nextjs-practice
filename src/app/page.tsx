@@ -15,6 +15,11 @@ export default function Home() {
             products
           </button>
         </Link>
+        <Link href={"/order-product"}>
+          <button className="text-base py-3 mt-4 px-8 bg-amber-500 rounded-lg">
+            place order
+          </button>
+        </Link>
       </div>
     </div>
   );
