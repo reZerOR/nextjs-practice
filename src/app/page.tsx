@@ -20,6 +20,11 @@ export default function Home() {
             place order
           </button>
         </Link>
+        <Link href={"/complex-dashboard"}>
+          <button className="text-base  py-3 mt-4 px-8 bg-amber-500 rounded-lg">
+            dashboard
+          </button>
+        </Link>
       </div>
     </div>
   );
