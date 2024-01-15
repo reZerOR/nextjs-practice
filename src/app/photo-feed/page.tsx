@@ -14,6 +14,8 @@ export default function Home() {
             <Image
               alt={name}
               src={src}
+              placeholder="blur"
+              quality={50}
               className="w-full object-cover aspect-square"
             />
           </Link>
