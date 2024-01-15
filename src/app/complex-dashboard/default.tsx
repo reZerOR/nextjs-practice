@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function CpomplexDashboard() {
+export default function DefaultCpomplexDashboard() {
   return (
     <div className="flex items-center">
       <h1>Dashboard</h1>
